@@ -5,12 +5,25 @@ html, body {
 
 .search {
     width: 30%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
 }
+ ::placeholder {
+     color: #333;
+     opacity: 0.3;
+     padding-left: 10px;
+ }
 
 .jumbotron {
+    background-image: url(https://hechingerreport.org/wp-content/uploads/2016/03/isas-purdue1.jpg);
+    background-size: cover; 
     text-align: center;
     min-height: 83vh;
     margin: 0;
+    transition: all 0.3s;
 }
 
 h1 {
@@ -30,3 +43,7 @@ h1 {
     height: 50px;
     margin-top: -50px;
   }
+
+/* .blur {
+    filter: blur(4px);
+} */
