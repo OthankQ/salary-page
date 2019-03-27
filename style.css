@@ -1,0 +1,19 @@
+.search {
+    width: 30%;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    margin-bottom: 30px;
+}
+
+.submit {
+    margin-left: 20px;
+}
