@@ -1,12 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
 .search {
     width: 30%;
 }
 
 .jumbotron {
     text-align: center;
+    min-height: 83vh;
+    margin: 0;
 }
 
 h1 {
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -17,3 +25,8 @@ h1 {
 .submit {
     margin-left: 20px;
 }
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+  }
