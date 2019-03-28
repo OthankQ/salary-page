@@ -23,6 +23,10 @@ body {
   padding-left: 10px;
 }
 
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .jumbotron {
   background: linear-gradient(
     90deg,
@@ -31,7 +35,7 @@ body {
     rgba(0, 236, 255, 1) 100%
   );
   text-align: center;
-  min-height: 83vh;
+  min-height: 90vh;
   margin: 0;
   transition: all 0.3s;
 }
