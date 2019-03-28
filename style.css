@@ -15,6 +15,7 @@ body {
 
 .searchBtn {
   margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ::placeholder {
@@ -28,12 +29,7 @@ nav {
 }
 
 .jumbotron {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(88, 215, 169, 1) 0%,
-    rgba(0, 236, 255, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,44,160,1) 0%, rgba(0,160,255,1) 100%);
   text-align: center;
   min-height: 90vh;
   margin: 0;
@@ -41,17 +37,19 @@ nav {
 }
 
 h1 {
+  color: white;
   margin-top: 80px;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
 
 .jumbotron p {
+  color: white;
   margin-bottom: 30px;
 }
 
-.submit {
-  margin-left: 20px;
+.searchBtn {
+  
 }
 
 .footer {
